@@ -119,7 +119,7 @@
 
 // int sum = 0;
 
-// System.Console.WriteLine("Вводите числа по одному, для завершения введите конец:");
+// System.Console.WriteLine("Вводите числа по одному, для завершения введите 0:");
 // int number = int.Parse(Console.ReadLine());
 
 // while (number != 0) {
@@ -143,6 +143,35 @@
 //     System.Console.WriteLine($"{number} => {number * number}");
 //     number++;
 // }
+
+// System.Console.WriteLine("Банкомат");
+
+// string correctPassword = "qwerty123";
+// int count = 0;
+// int allSum = 0;
+// while (true) {
+//     System.Console.WriteLine("Введите пароль от личного кабинета: ");
+//     string password = Console.ReadLine();
+
+//     if (password == correctPassword) {
+//         System.Console.WriteLine("Укажите сумму снятия, для завершения введите 0: ");
+//         int sum = int.Parse(Console.ReadLine());
+//         while (sum != 0) {
+//             System.Console.WriteLine($"Сумма принята: {sum}");
+//             allSum += sum;
+//             sum = int.Parse(Console.ReadLine());
+//         }
+//         break;
+//     }
+//     count++;
+//     if (count > 2) {
+//         System.Console.WriteLine("Карта заблокирована");
+//         break;
+//     System.Console.WriteLine("Неверный пароль, попробуйте снова");
+//     }
+// }
+// System.Console.WriteLine(allSum);
+
 
 
 
